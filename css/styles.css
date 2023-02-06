@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #000;
+}
+
+.slider {
+  height: 100%;
+}
+
+.slider-layer {
+  position: absolute;
+  /* все одно що top:0 bottom: 0 left:0 right:0  height: 100% width: 100%*/
+  inset: 0;
+  background-size: cover;
+}
