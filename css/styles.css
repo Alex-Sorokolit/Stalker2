@@ -10,6 +10,21 @@ body {
   background-color: #000;
 }
 
+.logo {
+  z-index: 10;
+  position: absolute;
+  top: 2%;
+  left: 0;
+  height: 100px;
+  width: 300px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+.logo:hover {
+  opacity: 1;
+}
 .slider {
   height: 100%;
 }
@@ -19,4 +34,14 @@ body {
   /* все одно що top:0 bottom: 0 left:0 right:0  height: 100% width: 100%*/
   inset: 0;
   background-size: cover;
+  background-position: center;
+  will-change: transform;
+}
+.slider__item {
+  overflow: hidden;
+}
+
+.slider__wrapper {
+  will-change: transform;
+  transform-style: preserve-3d;
 }
