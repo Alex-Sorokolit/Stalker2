@@ -70,5 +70,5 @@ body {
 .slider__wrapper {
   will-change: transform;
   transform-style: preserve-3d;
-  color: #7c8f55;
+  /* color: #a31c1c; */
 }
